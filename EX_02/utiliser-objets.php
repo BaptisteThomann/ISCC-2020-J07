@@ -12,3 +12,4 @@ $interval = $date->diff($date1);
 echo '<p>'.$interval->format(' %a days');
 echo $interval->format(' %H hours');
 echo $inteval->format(' %i minutes').'</p>';
+?>
