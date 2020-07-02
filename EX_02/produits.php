@@ -16,11 +16,11 @@ $produits =array(
         </tr>
         </tables>';
 
-    foreach($produits as $key=>$element){
+    foreach($produits as $total=>$element){
         echo '<table width=\"100%\" border=\"1\"
         cellspacing=\"1\" cellpading=\"5\">
         <tr>
-        <td>'.$key.'</td>
+        <td>'.$total.'</td>
         <td>'.$element.'</td>
         </tr>
         </table>';
